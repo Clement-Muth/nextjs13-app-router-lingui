@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@lingui/macro": "^4.2.0",
+    "rome": "^12.1.2",
     "turbo": "^1.9.9",
     "typescript": "^5.0.4"
   }

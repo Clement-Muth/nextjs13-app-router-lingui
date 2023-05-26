@@ -30,11 +30,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@lingui/macro", "virtual:c5590b2f527ee99ba9193c7c9e4a4c31bae3bc539ea7959eb5faf31942866f523da90f5621791c77e4aafb684ba487e8057a305def116aae38d50de542af1c04#npm:4.2.0"],\
             ["@lingui/react", "virtual:c5590b2f527ee99ba9193c7c9e4a4c31bae3bc539ea7959eb5faf31942866f523da90f5621791c77e4aafb684ba487e8057a305def116aae38d50de542af1c04#npm:4.2.0"],\
-            ["@types/lodash", "npm:4.14.195"],\
-            ["lodash", "npm:4.17.21"],\
             ["next", "virtual:c5590b2f527ee99ba9193c7c9e4a4c31bae3bc539ea7959eb5faf31942866f523da90f5621791c77e4aafb684ba487e8057a305def116aae38d50de542af1c04#npm:13.4.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:c5590b2f527ee99ba9193c7c9e4a4c31bae3bc539ea7959eb5faf31942866f523da90f5621791c77e4aafb684ba487e8057a305def116aae38d50de542af1c04#npm:18.2.0"],\
+            ["rome", "npm:12.1.2"],\
             ["turbo", "npm:1.9.9"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
           ],\
@@ -319,6 +318,60 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@rometools/cli-darwin-arm64", [\
+        ["npm:12.1.2", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-darwin-arm64-npm-12.1.2-046edd7b4a/node_modules/@rometools/cli-darwin-arm64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-darwin-arm64", "npm:12.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-darwin-x64", [\
+        ["npm:12.1.2", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-darwin-x64-npm-12.1.2-92836db95d/node_modules/@rometools/cli-darwin-x64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-darwin-x64", "npm:12.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-linux-arm64", [\
+        ["npm:12.1.2", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-linux-arm64-npm-12.1.2-46c5330cd0/node_modules/@rometools/cli-linux-arm64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-linux-arm64", "npm:12.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-linux-x64", [\
+        ["npm:12.1.2", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-linux-x64-npm-12.1.2-a0b0462a20/node_modules/@rometools/cli-linux-x64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-linux-x64", "npm:12.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-win32-arm64", [\
+        ["npm:12.1.2", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-win32-arm64-npm-12.1.2-171590d626/node_modules/@rometools/cli-win32-arm64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-win32-arm64", "npm:12.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@rometools/cli-win32-x64", [\
+        ["npm:12.1.2", {\
+          "packageLocation": "./.yarn/unplugged/@rometools-cli-win32-x64-npm-12.1.2-1cdebd329b/node_modules/@rometools/cli-win32-x64/",\
+          "packageDependencies": [\
+            ["@rometools/cli-win32-x64", "npm:12.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@sinclair/typebox", [\
         ["npm:0.25.24", {\
           "packageLocation": "./.yarn/cache/@sinclair-typebox-npm-0.25.24-d04d0f45ef-10219c58f4.zip/node_modules/@sinclair/typebox/",\
@@ -363,15 +416,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/istanbul-reports", "npm:3.0.1"],\
             ["@types/istanbul-lib-report", "npm:3.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@types/lodash", [\
-        ["npm:4.14.195", {\
-          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.195-a2a8254638-39b75ca635.zip/node_modules/@types/lodash/",\
-          "packageDependencies": [\
-            ["@types/lodash", "npm:4.14.195"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -686,15 +730,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["lodash", [\
-        ["npm:4.17.21", {\
-          "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",\
-          "packageDependencies": [\
-            ["lodash", "npm:4.17.21"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["lodash.get", [\
         ["npm:4.4.2", {\
           "packageLocation": "./.yarn/cache/lodash.get-npm-4.4.2-7bda64ed87-e403047ddb.zip/node_modules/lodash.get/",\
@@ -793,11 +828,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nextjs13-lingui", "workspace:."],\
             ["@lingui/macro", "virtual:c5590b2f527ee99ba9193c7c9e4a4c31bae3bc539ea7959eb5faf31942866f523da90f5621791c77e4aafb684ba487e8057a305def116aae38d50de542af1c04#npm:4.2.0"],\
             ["@lingui/react", "virtual:c5590b2f527ee99ba9193c7c9e4a4c31bae3bc539ea7959eb5faf31942866f523da90f5621791c77e4aafb684ba487e8057a305def116aae38d50de542af1c04#npm:4.2.0"],\
-            ["@types/lodash", "npm:4.14.195"],\
-            ["lodash", "npm:4.17.21"],\
             ["next", "virtual:c5590b2f527ee99ba9193c7c9e4a4c31bae3bc539ea7959eb5faf31942866f523da90f5621791c77e4aafb684ba487e8057a305def116aae38d50de542af1c04#npm:13.4.4"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:c5590b2f527ee99ba9193c7c9e4a4c31bae3bc539ea7959eb5faf31942866f523da90f5621791c77e4aafb684ba487e8057a305def116aae38d50de542af1c04#npm:18.2.0"],\
+            ["rome", "npm:12.1.2"],\
             ["turbo", "npm:1.9.9"],\
             ["typescript", "patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
           ],\
@@ -926,6 +960,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/resolve-from-npm-4.0.0-f758ec21bf-f4ba0b8494.zip/node_modules/resolve-from/",\
           "packageDependencies": [\
             ["resolve-from", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["rome", [\
+        ["npm:12.1.2", {\
+          "packageLocation": "./.yarn/unplugged/rome-npm-12.1.2-84368094c6/node_modules/rome/",\
+          "packageDependencies": [\
+            ["rome", "npm:12.1.2"],\
+            ["@rometools/cli-darwin-arm64", "npm:12.1.2"],\
+            ["@rometools/cli-darwin-x64", "npm:12.1.2"],\
+            ["@rometools/cli-linux-arm64", "npm:12.1.2"],\
+            ["@rometools/cli-linux-x64", "npm:12.1.2"],\
+            ["@rometools/cli-win32-arm64", "npm:12.1.2"],\
+            ["@rometools/cli-win32-x64", "npm:12.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
