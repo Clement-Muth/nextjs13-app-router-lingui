@@ -1,0 +1,15 @@
+{
+  "name": "nextjs13-lingui",
+  "packageManager": "yarn@3.5.1",
+  "dependencies": {
+    "@lingui/react": "^4.2.0",
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@lingui/macro": "^4.2.0",
+    "turbo": "^1.9.9",
+    "typescript": "^5.0.4"
+  }
+}
