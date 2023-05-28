@@ -1,3 +1,37 @@
+<div align="center">
+<h1>Lingui<sub>js</sub></h1>
+
+🌍📖 A readable, automated, and optimized (3 kb) internationalization for JavaScript
+
+<a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+  <img src="https://img.shields.io/badge/Lingui-4.2.0-blue" />
+</a>
+<a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+  <img src="https://img.shields.io/badge/%40lingui%2Fswc--plugin-4.0.0-blue" />
+</a>
+  
+[**Documentation**](https://github.com/lingui/js-lingui) · [**Quickstart**](https://github.com/lingui/js-lingui/blob/main/README.md#quickstart) · [**Example**](https://github.com/lingui/js-lingui/blob/main/README.md#example)
+
+<hr />
+
+<p align="center">
+  <a href="https://nextjs.org">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_dark_background.png">
+      <img src="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png" height="128">
+    </picture>
+    <h1 align="center">Next.js</h1>
+  </a>
+</p>
+
+<a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+  <img src="https://img.shields.io/badge/Nextjs-13.3.1-blue" />
+</a>
+  
+[**Documentation**](https://nextjs.org/docs) · [**Quickstart**](https://nextjs.org/learn) · [**Example**](https://github.com/vercel/next.js/tree/canary/examples)
+
+</div>
+
 # Projet Next.js avec Lingui
 
 Ce projet est un exemple d'intégration de Lingui avec Next.js. Il utilise Next.js version 13.3.1 et Lingui version 4.2.0.
