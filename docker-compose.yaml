@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  nextjs13-lingui:
+    image: test/nextjs13-lingui
+    pull_policy: never
+    stop_signal: SIGKILL
+    build:
+      context: ./
+    restart: always
+    ports:
+      - "3000:3000"
+    deploy:
+      replicas: 1
+    volumes:
+      - .:/app
