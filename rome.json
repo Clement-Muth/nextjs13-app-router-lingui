@@ -18,18 +18,14 @@
         "recommended": true
       }
     },
-    "ignore": [
-      "build/*"
-    ]
+    "ignore": ["build/*", "node_modules", ".next"]
   },
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
     "indentSize": 2,
     "lineWidth": 110,
-    "ignore": [
-      "*.js"
-    ],
+    "ignore": ["*.js", "node_modules", ".next", ".vscode"],
     "formatWithErrors": true
   },
   "javascript": {

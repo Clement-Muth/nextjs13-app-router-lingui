@@ -1,10 +1,12 @@
 {
   "name": "nextjs13-lingui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "dev": "next dev",
     "start": "next start",
     "build": "next build",
+    "lint": "rome check .",
+    "format": "rome format .",
     "translation:extract": "NODE_ENV=development lingui extract --clean"
   },
   "dependencies": {
