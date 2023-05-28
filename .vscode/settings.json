@@ -1,6 +1,26 @@
 {
+  "editor.defaultFormatter": "rome.rome",
+  "editor.codeActionsOnSave": {
+    "quickfix.rome": true,
+    "source.organizeImports.rome": true
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "rome.rome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "rome.rome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rome.rome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "rome.rome"
+  },
   "search.exclude": {
     "**/.yarn": true,
     "**/.pnp.*": true
-  }
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }
