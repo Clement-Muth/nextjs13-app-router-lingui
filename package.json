@@ -1,5 +1,6 @@
 {
   "name": "nextjs13-lingui",
+  "version": "1.0.1",
   "scripts": {
     "dev": "next dev",
     "start": "next start",
