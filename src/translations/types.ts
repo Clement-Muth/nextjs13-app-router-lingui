@@ -1,5 +1,5 @@
 import { I18n, Messages } from "@lingui/core";
-import { AVAILABLE_LOCALES } from "core/locale";
+import { AVAILABLE_LOCALES } from "~/core/locale";
 
 export type { Messages, I18n };
 

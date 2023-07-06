@@ -1,6 +1,6 @@
-import { AVAILABLE_LOCALES } from "core/locale";
-import { loadTranslationMessagesOnServerSide } from "translations/messagesLoader";
-import { ServerSideGeneratedI18nNamespace } from "translations/types";
+import { AVAILABLE_LOCALES } from "~/core/locale";
+import { loadTranslationMessagesOnServerSide } from "~/translations/messagesLoader";
+import { ServerSideGeneratedI18nNamespace } from "~/translations/types";
 
 export const serverSideTranslations = async (
   initialLocale: AVAILABLE_LOCALES
@@ -12,7 +12,7 @@ export const serverSideTranslations = async (
   return {
     _i18nPropsNamespace: {
       initialLocale,
-      initialMessages: await loadTranslationMessagesOnServerSide(initialLocale)
+      initialMessages: (await loadTranslationMessagesOnServerSide(initialLocale)) ?? {}
     },
     locale: initialLocale
   };

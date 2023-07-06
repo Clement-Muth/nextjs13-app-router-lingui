@@ -1,6 +1,6 @@
 import { Messages, i18n } from "@lingui/core";
-import { AVAILABLE_LOCALES } from "core/locale";
-import { I18n } from "translations/types";
+import { AVAILABLE_LOCALES } from "~/core/locale";
+import { I18n } from "~/translations/types";
 
 export const globalI18n: I18n = i18n;
 

@@ -13,6 +13,8 @@ export function isAcceptedLocale(locale: unknown): locale is AVAILABLE_LOCALES {
   return locale in AVAILABLE_LOCALES;
 }
 
+export const locales = ["en", "fr"] as const;
+
 export function selectFirstAcceptedLocale(...mayBeLocales: Array<unknown>): AVAILABLE_LOCALES {
   for (const mayBeLocale of mayBeLocales) {
     if (isAcceptedLocale(mayBeLocale)) {

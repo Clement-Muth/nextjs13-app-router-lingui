@@ -1,7 +1,12 @@
 import { activateLocale, globalI18n } from "./i18n";
 import { I18nPropsNamespace } from "./types";
-import { AVAILABLE_LOCALES, selectFirstAcceptedLocale } from "core/locale";
 import { useEffect, useMemo } from "react";
+import {
+  AVAILABLE_LOCALES,
+  DEFAULT_LOCALE,
+  isAcceptedLocale,
+  selectFirstAcceptedLocale
+} from "~/core/locale";
 
 const useLoadTranslation = (i18nPropsNamespace: I18nPropsNamespace, locale: AVAILABLE_LOCALES) => {
   const expectedLocale = selectFirstAcceptedLocale(locale, AVAILABLE_LOCALES.en);
@@ -17,7 +22,11 @@ const useLoadTranslation = (i18nPropsNamespace: I18nPropsNamespace, locale: AVAI
       );
     }
 
-    activateLocale(globalI18n, locale, i18nPropsNamespace.initialMessages);
+    activateLocale(
+      globalI18n,
+      isAcceptedLocale(locale) ? locale : DEFAULT_LOCALE,
+      i18nPropsNamespace.initialMessages
+    );
   }, []);
 
   useEffect(() => {
@@ -31,7 +40,11 @@ const useLoadTranslation = (i18nPropsNamespace: I18nPropsNamespace, locale: AVAI
       );
     }
 
-    activateLocale(globalI18n, locale, i18nPropsNamespace.initialMessages);
+    activateLocale(
+      globalI18n,
+      isAcceptedLocale(locale) ? locale : DEFAULT_LOCALE,
+      i18nPropsNamespace.initialMessages
+    );
   }, [locale]);
 };
 

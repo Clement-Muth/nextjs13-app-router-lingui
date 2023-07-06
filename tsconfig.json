@@ -1,6 +1,12 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    // our custom config over default nextjs one
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ]
+    },
     "incremental": true,
     "target": "es5",
     "lib": [
