@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>Projet Next.js avec Lingui</h1>
+  <h1>Next.js project with Lingui</h1>
 
   <a href="https://github.com/yarnpkg/berry" alt="Yarn berry">
     <img src="https://img.shields.io/badge/yarnpkg%2Fberry-3.5.1-blue" />
@@ -44,42 +44,42 @@
 
 </div>
 
-# Projet Next.js avec Lingui
+# Next.js Project with Lingui
 
-Ce projet est un exemple d'intégration de Lingui avec Next.js. Il utilise Next.js version 13.3.1 et Lingui version 4.2.0.
+This project is an example of integration of Lingui with Next.js. It uses Next.js version 13.3.1 and Lingui version 4.2.0.
 
-## Objectif
+## Goal
 
-Le but de ce projet est de tester l'intégration de Lingui, un framework de traduction, avec Next.js, un framework JavaScript basé sur React pour le développement d'applications web.
+The purpose of this project is to test the integration of Lingui, a translation framework, with Next.js, a JavaScript framework based on React for web application development.
 
-## Fonctionnalités
+## Fonctionnalies
 
-- Prise en charge de la traduction des textes dans l'application à l'aide de Lingui.
-- Utilisation de ROME comme linter et formatter pour maintenir un code de qualité.
-- Utilisation de Yarn Berry avec hardlinks-local et nodeLinker node-modules pour gérer les dépendances.
+- Translation of text within the application using Lingui.
+- Utilization of ROME as the linter and formatter to maintain code quality.
+- Usage of Yarn Berry with hardlinks-local and nodeLinker node-modules to manage dependencies.
 
-## Prérequis
+## Prerequisites
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre système :
+Before starting, make sure you have the following installed on your system:
 
 - Node.js (version >=16.14.0)
 - Yarn (version 3.5.1)
-
+- 
 ## Installation
 
-1. Clonez ce dépôt GitHub sur votre machine locale :
+1. Clone this GitHub repository to your local machine:
 
 ```shell
 git clone https://github.com/votre-utilisateur/nom-du-repo.git
 ```
 
-2. Accédez au répertoire du projet :
+2. Navigate to the project directory:
 
 ```shell
-cd nom-du-repo
+cd name-of-repo
 ```
 
-3. Installez les dépendances du projet à l'aide de Yarn :
+3. Install the project dependencies using Yarn:
 
 ```shell
 yarn install
@@ -87,31 +87,31 @@ yarn install
 
 ## Configuration
 
-Pour configurer Lingui, vous devez effectuer les étapes suivantes :
+To configure Lingui, you need to follow these steps:
 
-1. Créez un fichier **`.env`** à la racine du projet et ajoutez les variables d'environnement nécessaires. Consultez le fichier **`.env.example`** pour connaître les variables requises.
+1. Create a **`.env`** file at the root of the project and add the necessary environment variables. Refer to the **`.env.example`** file for the required variables.
 
-2. Modifiez les fichiers de configuration Lingui (**`lingui.config.js`** et **`next.config.js`**) pour adapter les paramètres à votre projet.
+2. Modify the Lingui configuration files (**`lingui.config.js`** and **`next.config.js`**) to adjust the settings to your project.
 
-## Utilisation
+## Usage
 
-Pour lancer l'application en mode développement, exécutez la commande suivante :
+To launch the application in development mode, run the following command:
 
 ```shell
 yarn dev
 ```
 
-Cela démarre le serveur de développement Next.js et vous pouvez accéder à l'application dans votre navigateur à l'adresse **`http://localhost:3000`**.
+This starts the Next.js development server, and you can access the application in your browser at the address **`http://localhost:3000`**.
 
-Pour générer une version optimisée de l'application pour la production, exécutez la commande suivante :
+To generate an optimized version of the application for production, run the following command:
 
 ```shell
 yarn build
 ```
 
-Cela génère le build de l'application dans le répertoire **`.next`**, prêts à être déployés sur un serveur.
+This generates the application's build in the **`.next`** directory, ready to be deployed to a server.
 
-Pour exécuter les tests, utilisez la commande suivante :
+To run tests, use the following command:
 
 ```shell
 yarn test
@@ -119,26 +119,26 @@ yarn test
 
 # Yarn Berry avec Hardlinks-local et NodeLinker node-modules
 
-Ce projet utilise Yarn Berry avec les fonctionnalités de hardlinks-local et de nodeLinker node-modules pour gérer les dépendances de manière efficace et optimisée.
+This project uses Yarn Berry with the features of hardlinks-local and nodeLinker node-modules to manage dependencies efficiently and optimally.
 
-## Qu'est-ce que Yarn Berry ?
+## What is Yarn Berry?
 
-Yarn Berry est une version améliorée de Yarn, qui apporte de nouvelles fonctionnalités et des performances accrues. Il remplace le gestionnaire de paquets classique de Yarn par une nouvelle architecture basée sur Plug'n'Play (PnP). Cela permet une gestion des dépendances plus rapide, légère et déterministe.
+Yarn Berry is an enhanced version of Yarn that brings new features and improved performance. It replaces Yarn's traditional package manager with a new architecture based on Plug'n'Play (PnP). This enables faster, lighter, and deterministic dependency management.
 
-## Pourquoi utiliser Yarn Berry ?
+## Why use Yarn Berry?
 
-Yarn Berry offre plusieurs avantages :
+Yarn Berry offers several advantages:
 
-- **Gestion des dépendances plus rapide :** Avec l'architecture PnP, Yarn Berry évite les installations et les résolutions de dépendances coûteuses, ce qui se traduit par des temps de construction et de démarrage plus rapides de votre application.
+- **Faster dependency management:** With the PnP architecture, Yarn Berry avoids costly dependency installations and resolutions, resulting in faster build and startup times for your application.
 
-- **Résolution de dépendances déterministe :** Yarn Berry garantit la reproductibilité des installations en utilisant un algorithme de résolution des dépendances basé sur des règles strictes. Cela signifie que chaque membre de l'équipe obtient exactement les mêmes versions de dépendances lors de l'installation.
+- **Deterministic dependency resolution:** Yarn Berry ensures installation reproducibility by using a dependency resolution algorithm based on strict rules. This means each team member gets exactly the same dependency versions during installation.
 
-- **Gestion des versions simplifiée :** Yarn Berry facilite la mise à jour et le gel des versions des dépendances grâce à des commandes simples et des outils intégrés.
+- **Simplified version management:** Yarn Berry makes it easy to update and lock dependency versions through simple commands and built-in tools.
 
-# Rome - Linter et Formatter
+# Rome - Linter and Formatter
 
-Ce projet utilise Rome comme linter et formatter pour maintenir un code de qualité. Rome est un outil de développement pour JavaScript et TypeScript qui fournit des fonctionnalités avancées d'analyse statique, de linting et de formatage.
+This project uses Rome as the linter and formatter to maintain code quality. Rome is a development tool for JavaScript and TypeScript that provides advanced static analysis, linting, and formatting features.
 
-## Qu'est-ce que Rome ?
+## What is Rome?
 
-Rome est une suite d'outils intégrée pour le développement JavaScript et TypeScript. Il offre une approche moderne pour la gestion des projets, en fournissant des fonctionnalités de linting, de formatage, de compilation et bien plus encore.
+Rome is an integrated toolchain for JavaScript and TypeScript development. It offers a modern approach to project management, providing features such as linting, formatting, compilation, and more.
