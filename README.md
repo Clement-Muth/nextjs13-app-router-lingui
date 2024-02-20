@@ -52,7 +52,7 @@ This project is an example of integration of Lingui with Next.js. It uses Next.j
 
 The purpose of this project is to test the integration of Lingui, a translation framework, with Next.js, a JavaScript framework based on React for web application development.
 
-## Fonctionnalies
+## Features
 
 - Translation of text within the application using Lingui.
 - Utilization of ROME as the linter and formatter to maintain code quality.
